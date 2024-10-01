@@ -1,10 +1,8 @@
-# Front-End Engineer Career Path
+# Codecademy Projects
 
-Front-end engineers work closely with designers to make websites beautiful, functional, and fast. This Career Path will teach you not only the necessary languages and technologies but also how to think like a front-end engineer.
+This is a collection of projects I have created in Codecademy, primarily under the Front-End Engineer Career Path.
 
-## Completed Projects on Codecademy Front-End Engineer Path:
-
-### HTML & CSS
+## HTML & CSS
 Learn how to structure HTML documents and write clearer, more accessible code using Semantic HTML. Learn how to style elements using various visual CSS rules and make a website responsive.
 
 - Fashion Blog
@@ -18,7 +16,7 @@ Learn how to structure HTML documents and write clearer, more accessible code us
 - Burger Restaurant
 - Photography Landing Page
 
-### JavaScript
+## JavaScript
 Learn programming fundamentals and basic object-oriented concepts using the latest JavaScript syntax.
 
 - Temperature Converter
