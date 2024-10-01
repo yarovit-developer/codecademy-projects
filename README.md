@@ -1,3 +1,5 @@
+![Image](https://github.com/yarovit-developer/codecademy-projects/blob/main/codecademy_logo.png?raw=true)
+
 # Codecademy Projects
 
 This is a collection of projects I have created in Codecademy, primarily under the Front-End Engineer Career Path.
