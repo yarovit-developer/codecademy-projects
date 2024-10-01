@@ -1,0 +1,2 @@
+# FreshDeals: Blueberries
+This is a a site for buying groceries. The currently selected product is “Organic Blueberries”. Adding breadcrumbs to the site will include a UI element that hints to some of the questions a customer may have, like Can I buy anything besides blueberries? Is everything on this site organic or can I buy conventional produce? Does this site offer non-produce items? . Users will have a better feeling for what the site provides and the optional attributes of the product they are purchasing.
