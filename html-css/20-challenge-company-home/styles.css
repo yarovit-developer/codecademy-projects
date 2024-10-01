@@ -1,0 +1,118 @@
+body {
+  font-family: "Play", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.menu a {
+  font-size: 22px;
+  margin: 0 20px;
+  text-decoration: underline;
+  color: black;
+}
+
+.vc-intro img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.vc-intro {
+  position: relative;
+  text-align: center;
+}
+
+
+.vc-intro-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: white;
+  color: black;
+  padding: 20px;
+}
+
+.vc-intro-text h1 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.vc-intro-text p {
+  font-size: 22px;
+  margin: 0;
+}
+
+.vc-description, .vc-portfolio, .vc-team {
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+}
+
+.vc-description h1, .vc-portfolio h1, .vc-team h1 {
+  font-size: 22px;
+  color: black;
+}
+
+.vc-description p, .vc-portfolio p {
+  font-size: 22px;
+}
+
+
+.portfolio-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.portfolio-item {
+  margin: 10px;
+  text-align: center;
+}
+
+.portfolio-item img {
+  width: 220px;
+  height: 153px;
+  object-fit: cover;
+}
+
+.vc-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.team-member-item {
+  flex: 0;
+  text-align: center;
+  margin: 10px; /* Уменьшаем отступ между элементами */
+}
+
+.team-member-item img {
+  width: 220px;
+  height: 153px;
+  object-fit: cover;
+  margin: 0;
+}
+
+footer {
+  background-color: white;
+  text-align: center;
+  font-size: 16px;
+  padding: 20px;
+  color: black;
+}

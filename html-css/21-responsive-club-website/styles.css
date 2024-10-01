@@ -1,0 +1,127 @@
+body {
+  background-color: lightsalmon;
+  margin: 0;
+}
+
+/* Остальные стили остаются без изменений */
+
+.header-nav {
+  background-color: teal;
+  text-align: center;
+  padding: 20px;
+}
+
+.header-nav a {
+  color: white;
+  text-decoration: none;
+  margin: 30px;
+  font-size: 20px;
+}
+
+.header-nav a:hover {
+  text-decoration: underline;
+}
+
+.village-section {
+  background-color: #7F503D;
+  color: Coral;
+  text-align: center;
+  padding: 20px;
+}
+
+.coral-section {
+  background-color: Coral;
+}
+
+.main-content {
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.main-content h2 {
+  color: yellow;
+
+}
+
+.main-content p {
+  color: white;
+}
+
+.main-content a {
+  color: yellow;
+  text-decoration: none;
+}
+
+.main-content a:hover {
+  text-decoration: underline;
+}
+
+.testimonial {
+  background-color: teal;
+  font-size: 2.5rem;
+  padding: 20px;
+  color: white;
+  text-align: left;
+    font-weight: bold;
+}
+
+.coral-images {
+  display: flex;
+  justify-content: space-between; /* Равномерное распределение картинок по ширине контейнера */
+  align-items: center; /* Выравнивание картинок по вертикали по центру */
+  background-color: Coral;
+}
+
+.coral-images img {
+  width: 100%;
+  height: auto;
+  margin: 10px; /* Добавляем отступ между изображениями */
+}
+
+
+.cta img {
+  width: 50%;
+  height: auto;
+  margin: 10px; /* Добавляем отступ между изображениями */
+}
+
+
+/* Медиа-запрос для изменения размеров изображений после 768px */
+@media (min-width: 768px) {
+  .coral-images img {
+    width: 30%;
+  }
+}
+
+
+/* Медиа-запрос для изменения размеров изображений после 768px */
+@media (max-width: 768px) {
+  .coral-images img {
+    width: 30%;
+  }
+}
+
+
+
+/* Другие медиа-запросы и стили могут быть добавлены для других размеров экрана по вашему усмотрению */
+
+
+.cta {
+  text-align: center;
+  background-color: teal;
+  padding: 20px;
+  color: yellow;
+}
+
+.footer {
+  background-color: teal;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer a {
+  color: yellow;
+  text-decoration: none;
+  margin: 10px;
+}

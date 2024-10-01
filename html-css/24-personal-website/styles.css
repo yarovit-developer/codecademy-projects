@@ -1,0 +1,157 @@
+body {
+  background-color: #000000;
+  color: #00FF00;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.terminal {
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 80%;
+  max-width: 600px;
+  position: relative;
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.5); /* Green shadow */
+  overflow: hidden; /* Trim content outside .terminal */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+.color-switcher {
+  background: none;
+  border: none;
+  color: #00FF00;
+  font-size: 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.nickname {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+@keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: var(--cursor-color); /* Use a variable for the cursor color */
+  }
+}
+
+.coursor {
+  animation: blink 1s step-end infinite;
+}
+
+.menu a {
+  color: #00FF00;
+  text-decoration: none;
+  display: block;
+  margin: 10px 0;
+  font-size: 24px;
+  transition: transform 0.3s;
+  opacity: 0;
+  transform: translateY(-20px);
+}
+
+.menu a.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.menu a:hover {
+  transform: scale(1.1);
+}
+
+.menu a:active {
+  color: #00FF00;
+  transform: scale(1.05);
+}
+
+ul {
+  padding: 0; 
+  list-style-type: none;
+  display: flex; 
+  justify-content: center; 
+}
+
+ul li {
+  text-align: center; 
+  margin: 0 10px;
+}
+
+
+section {
+  overflow: hidden; 
+  transition: max-height 0.3s ease; 
+  max-height: 0; 
+}
+
+section.show {
+  max-height: 500px; 
+}
+
+.terminal.dark-blue {
+  background-color: #001f3f;
+  color: #FFFFFF;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.terminal.dark-blue .color-switcher {
+  color: #FFFFFF;
+}
+
+.terminal.dark-blue .menu a {
+  color: #FFFFFF;
+}
+
+.terminal.dark-blue .menu a:hover {
+  transform: scale(1.1);
+}
+
+.terminal.dark-blue .nickname {
+  color: #FFFFFF;
+}
+
+.dark-bg .terminal {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); 
+}
+
+
+.box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.box img {
+  width: 150px;
+  height: auto;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.box img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(0, 255, 0, 0.8);
+}
