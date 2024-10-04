@@ -1,5 +1,6 @@
 # Video Player
 
-You just learned your first programming pattern. Let’s put it to use!
+Responsive video player
 
-For this project, you’ll make three React components work together to create a responsive video player.
+
+(Check here)[https://video-player2.netlify.app/]
