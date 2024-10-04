@@ -5,46 +5,69 @@
 This is a collection of projects I have created in Codecademy, primarily under the Front-End Engineer Career Path.
 
 ## HTML & CSS
-Learn how to structure HTML documents and write clearer, more accessible code using Semantic HTML. Learn how to style elements using various visual CSS rules and make a website responsive.
-
 - Fashion Blog
+- Blueberries
+- The Summit
+- Journey Around the World
+- Pinpoint E-Commerce
+- Real Good Reviews
+- Flex Box To-Do
+- Tea Cozy
+- Purp Spa
+- Task Grid
+- Tsunami
 - Wine Festival
+- Challenge Company Home
+- Responsive Club Website
+- Leagues
+- Form A Story
+- Personal Website
 - New York City Blog
 - Healthy Recipes
-- Photography Portfolio
-- Arts & Crafts Store
+- Olivia Woodruff Portfolio
+- The Box Model Burgers
+- Broadway
 - Paint Store
-- Travel Novelist Website
-- Burger Restaurant
-- Photography Landing Page
+- Typography
 
 ## JavaScript
-Learn programming fundamentals and basic object-oriented concepts using the latest JavaScript syntax.
-
-- Temperature Converter
-- Dog Age Calculator
-- Magic Eight Ball
-- Race Day Registration
-- Scissors, Paper, Stone Game
-- Sleep Debt Calculator
-- Training Event Randomiser
-- Number Guessing Game
-- Secret Message
-- Whale Language Translator
-- Meal Generator
-- Sports Team Stats
-- Mini Linter
-- Lodash Library
+- Kelvin Weather
+- Whale Talk
+- Meal Maker
+- Team Stats
+- Grammar Checker
 - Credit Card Checker
-- Organism Simulation
-- Piano Keys Game
-- Media Library
-- School Catalog
-- Message Mixer
-- Human Resources Program
-- Wanderlust Travel Website
+- Mysterious Organism
+- Piano Keys
+- Build Library
+- School Catalogue
+- Workaround Explorer
+- Dog Years
+- Find Your Hat Starting
+- Film Finder
+- Magic Eight Ball
+- Race Day
+- Rock Paper Scissors
+- Sleep Debt Calculator
+- Training Days
+- Number Guesser
+- Secret Message
 
 ### React
-Learn to build powerful interactive applications with React, a popular JavaScript library.
-
+- Adopt Pet
 - Animal Fun Facts
+- Appointment Planner Solution
+- Authorization Form
+- Codeyoverflow Forum
+- Passing Thoughts
+- Saucy Tango Food Order Form
+- Styling Rock Paper Scissors
+- Video Player
+  
+### Redux
+- Codecademy Store
+- Expense Tracker
+- Flashcards
+- Redux News
+- Redux Road
+
