@@ -53,7 +53,7 @@ This is a collection of projects I have created in Codecademy, primarily under t
 - Number Guesser
 - Secret Message
 
-### React
+## React
 - Adopt Pet
 - Animal Fun Facts
 - Appointment Planner Solution
@@ -64,7 +64,7 @@ This is a collection of projects I have created in Codecademy, primarily under t
 - Styling Rock Paper Scissors
 - Video Player
   
-### Redux
+## Redux
 - Codecademy Store
 - Expense Tracker
 - Flashcards
