@@ -1,4 +1,4 @@
-# WordSmith and ByteSize API Project
+# WordSmith and ByteSize
 
 ## Description
 
