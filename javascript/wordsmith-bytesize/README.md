@@ -13,4 +13,5 @@ This project showcases the use of two APIs: the **Datamuse API** for finding rel
 - **Asynchronous Requests**: Both functions make use of JavaScript's `fetch` API to send asynchronous requests and handle the responses.
 
 To use ByteSize you will need a Rebrandly API key. To do this, read through [the Rebrandly sign up guide](https://developers.rebrandly.com/docs) to set up your API.
-.
+
+[Check project here](https://yarovit-developer.github.io/codecademy-projects/javascript/wordsmith-bytesize/index.html)
