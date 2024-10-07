@@ -7,3 +7,6 @@ Before you begin, you’ll need to create an account on The Movie Database websi
 ![Settings](https://static-assets.codecademy.com/Courses/Learn-JavaScript/requests/TMDB-Settings.png)
 
 On the Settings page, navigate to the API section and click on the link to Request an API Key to register as a Developer.
+
+
+[Check project here](https://yarovit-developer.github.io/codecademy-projects/javascript/21-film-finder/index.html)
