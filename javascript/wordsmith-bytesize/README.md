@@ -11,3 +11,6 @@ This project showcases the use of two APIs: the **Datamuse API** for finding rel
 - **WordSmith**: Fetches and displays a list of words related to the input word.
 - **ByteSize**: Shortens a user-provided URL using Rebrandly API and displays the shortened URL on the page.
 - **Asynchronous Requests**: Both functions make use of JavaScript's `fetch` API to send asynchronous requests and handle the responses.
+
+To use ByteSize you will need a Rebrandly API key. To do this, read through [the Rebrandly sign up guide](https://developers.rebrandly.com/docs) to set up your API.
+.
